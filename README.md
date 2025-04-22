@@ -74,7 +74,7 @@ Enjoy chatting with the neural network!
 ## Database Structure
 This section describes the structure of the PostgreSQL database used in the Telegram AI Bot project.
 
-### Schema: `chat`
+### Schema: `public`
 
 #### Table: `chat_history`
 
