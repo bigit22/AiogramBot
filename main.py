@@ -6,8 +6,7 @@ from database.database import setup_database
 from handlers.main import main_router
 
 bot: Bot = Bot(token=TELEGRAM_API_TOKEN)
-storage: MemoryStorage = MemoryStorage()
-dp: Dispatcher = Dispatcher(storage=storage)
+dp: Dispatcher = Dispatcher()
 
 dp.include_router(main_router)
 
